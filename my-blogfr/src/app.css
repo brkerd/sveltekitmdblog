@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+      --text: 8 17 16;
+      --background: 248 252 251;
+      --primary: 83 178 171;
+      --secondary: 167 199 215;
+      --accent: 159 221 3;
+    }
+    .dark {
+      --text: 238 247 246;
+      --background: 3 7 6;
+      --primary: 77 172 166;
+      --secondary: 40 72 88;
+      --accent: 190 252 34;
+    }
+    h1 {
+      @apply text-5xl;
+    }
+    h2 {
+      @apply text-4xl;
+    }
+    h3 {
+      @apply text-3xl;
+    }
+    h4 {
+      @apply text-2xl;
+    }
+    h5 {
+      @apply text-xl;
+    }
+    html {
+      @apply text-base;
+    }
+    small {
+      @apply text-sm;
+    }
+  }
+  
+  
